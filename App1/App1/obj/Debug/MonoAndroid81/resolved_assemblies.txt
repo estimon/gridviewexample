@@ -2,6 +2,7 @@ C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroi
 C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\Java.Interop.dll
 C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\Mono.Android.dll
 C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\Newtonsoft.Json.dll
 C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Core.dll
 C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.dll
 C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Xml.dll
@@ -38,4 +39,19 @@ C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroi
 C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Net.Http.dll
 C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Serialization.dll
 C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.ServiceModel.Internals.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\netstandard.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Data.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Numerics.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Transactions.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Diagnostics.StackTrace.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Globalization.Extensions.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.IO.Compression.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.IO.Compression.FileSystem.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Serialization.Xml.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Serialization.Primitives.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Security.Cryptography.Algorithms.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Security.SecureString.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Web.Services.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Xml.Linq.dll
+C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\System.Xml.XPath.XDocument.dll
 C:\Users\opilane\Documents\GitHub\gridviewexample\App1\App1\obj\Debug\MonoAndroid81\android\assets\Mono.Security.dll

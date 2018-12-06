@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -12,19 +14,21 @@ using Android.Widget;
 
 namespace App1
 {
-    
+
     public class ImageAdapter : BaseAdapter
     {
         Context context;
+        List<Photo> Photos;
 
-        public ImageAdapter(Context c)
+        public ImageAdapter(Context c, List<Photo> photos)
         {
             context = c;
+            Photos = photos;
         }
 
         public override int Count
         {
-            get { return thumbIds.Length; }
+            get { return Photos.Count; }
         }
 
         public override Java.Lang.Object GetItem(int position)
@@ -39,39 +43,46 @@ namespace App1
 
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-            ImageView imageview;
-            if(convertView == null)
-            {
-                imageview = new ImageView(context);
-                imageview.LayoutParameters = new GridView.LayoutParams(85, 85);
-                imageview.SetScaleType(ImageView.ScaleType.CenterCrop);
-                imageview.SetPadding(8, 8, 8, 8);
+            ImageView imageView;
 
+            if (convertView == null)
+            {  // if it's not recycled, initialize some attributes
+                imageView = new ImageView(context);
+                imageView.LayoutParameters = new GridView.LayoutParams(85, 85);
+                imageView.SetScaleType(ImageView.ScaleType.CenterCrop);
+                imageView.SetPadding(8, 8, 8, 8);
             }
             else
             {
-                imageview = (ImageView)convertView;
+                imageView = (ImageView)convertView;
             }
 
-            imageview.SetImageResource(thumbIds[position]);
-            return imageview;
 
-            
+            var imageBitmap = GetImageBitmapFromUrl(Photos[position].url);
+            imageView.SetImageBitmap(imageBitmap);
+            return imageView;
+
+
+
         }
-        int[] thumbIds =
+        private Bitmap GetImageBitmapFromUrl(string url)
         {
-        Resource.Drawable.sample_2, Resource.Drawable.sample_3,
-        Resource.Drawable.sample_4, Resource.Drawable.sample_5,
-        Resource.Drawable.sample_6, Resource.Drawable.sample_7,
-        Resource.Drawable.sample_0, Resource.Drawable.sample_1,
-        Resource.Drawable.sample_2, Resource.Drawable.sample_3,
-        Resource.Drawable.sample_4, Resource.Drawable.sample_5,
-        Resource.Drawable.sample_6, Resource.Drawable.sample_7,
-        Resource.Drawable.sample_0, Resource.Drawable.sample_1,
-        Resource.Drawable.sample_2, Resource.Drawable.sample_3,
-        Resource.Drawable.sample_4, Resource.Drawable.sample_5,
-        Resource.Drawable.sample_6
-        };
+            Bitmap imageBitmap = null;
+
+            using (var webClient = new WebClient())
+            {
+                var imageBytes = webClient.DownloadData(url);
+                if (imageBytes != null && imageBytes.Length > 0)
+                {
+                    imageBitmap = BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
+                }
+            }
+
+            return imageBitmap;
+        }
+
+
     }
+   
 
 }
