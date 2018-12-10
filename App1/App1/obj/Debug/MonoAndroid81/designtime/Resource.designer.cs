@@ -2486,8 +2486,8 @@ namespace App1
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
 			
-			// aapt resource value: 0x7F020002
-			public const int gridview = 2130837506;
+			// aapt resource value: 0x7F020004
+			public const int gridview = 2130837508;
 			
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
@@ -2572,6 +2572,9 @@ namespace App1
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
+			
+			// aapt resource value: 0x7F020003
+			public const int progressBar1 = 2130837507;
 			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
@@ -2764,6 +2767,9 @@ namespace App1
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
+			
+			// aapt resource value: 0x7F020002
+			public const int xddddd = 2130837506;
 			
 			static Id()
 			{
@@ -3003,6 +3009,9 @@ namespace App1
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
+			
+			// aapt resource value: 0x7F030003
+			public const int wait = 2130903043;
 			
 			static Layout()
 			{

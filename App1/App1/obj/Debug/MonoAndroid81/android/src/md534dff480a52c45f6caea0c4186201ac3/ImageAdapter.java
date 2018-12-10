@@ -26,13 +26,6 @@ public class ImageAdapter
 			mono.android.TypeManager.Activate ("App1.ImageAdapter, App1", "", this, new java.lang.Object[] {  });
 	}
 
-	public ImageAdapter (android.content.Context p0)
-	{
-		super ();
-		if (getClass () == ImageAdapter.class)
-			mono.android.TypeManager.Activate ("App1.ImageAdapter, App1", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
-	}
-
 
 	public int getCount ()
 	{

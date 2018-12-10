@@ -5,6 +5,7 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -25,6 +26,7 @@ namespace App1
         public string Title { get; set; }
         public string ThumbnailURL { get; set; }
         public string url { get; set; }
+        public Bitmap bitmap { get; set; }
 
     }
 
